@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Add basic Log::Log4perl logging to a MooseX::App application as a role.",
    "author" : [
-      "John Dexter <John.Dexter@mercer.com>"
+      "John Dexter "
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.11.1, CPAN::Meta::Converter version 2.120921",
@@ -43,7 +43,7 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -53,5 +53,18 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/PsyDefect/MX-App-Role-Log4perl/issues"
+      },
+      "homepage" : "https://github.com/PsyDefect/MX-App-Role-Log4perl",
+      "repository" : {
+         "url" : "https://github.com/PsyDefect/MX-App-Role-Log4perl.git",
+         "web" : "https://github.com/PsyDefect/MX-App-Role-Log4perl"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "John Dexter <John.Dexter@mercer.com>"
+   ]
 }

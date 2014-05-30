@@ -1,4 +1,4 @@
-utf-8# NAME
+# NAME
 
 MooseX::App::Role::Log4perl - Add basic Log::Log4perl logging to a MooseX::App application as a role.
 
@@ -12,11 +12,11 @@ MooseX::App::Role::Log4perl - Add basic Log::Log4perl logging to a MooseX::App a
     {
         my $self = shift;
 
-        $self->$log->debug("This is a DEBUG message");
-        $self->$log->info("This is an INFO message");
-        $self->$log->warn("This is a WARN message");
-        $self->$log->error("This is an ERROR message");
-        $self->$log->fatal("This is a FATAL message");
+        $self->log->debug("This is a DEBUG message");
+        $self->log->info("This is an INFO message");
+        $self->log->warn("This is a WARN message");
+        $self->log->error("This is an ERROR message");
+        $self->log->fatal("This is a FATAL message");
 
     }
 

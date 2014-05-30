@@ -5,7 +5,7 @@ use Moose::Role;
 use MooseX::App::Role;
 use Log::Log4perl qw(:easy);
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 option 'logfile' =>
 (

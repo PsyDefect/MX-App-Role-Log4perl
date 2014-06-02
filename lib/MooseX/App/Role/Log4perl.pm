@@ -1,6 +1,8 @@
 package MooseX::App::Role::Log4perl;
 
-use Modern::Perl;
+use strict;
+use warnings;
+use 5.010_000;
 use Moose::Role;
 use MooseX::App::Role;
 use Log::Log4perl qw(:easy);
